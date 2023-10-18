@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Note App</title>
+  <link rel="stylesheet" href="main.css">
+  <style>
+   
+    body {
+      background-image: url("pen.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    .add-note {
+      padding: 10px 20px;
+      font-size: 24px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: inline-block;
+      margin-right: 5px;
+    }
+    .add-note:hover,
+    .note-buttons button {
+      background-color: #007bff;
+    }
+    .app-heading {
+      font-size: 28px;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .note-container {
+      margin-bottom: 10px;
+      position: relative;
+    }
+    .note {
+      width: 100%;
+      height: 100px;
+      resize: vertical;
+    }
+    .note-buttons {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 10px;
+    }
+    .note-buttons button {
+      margin-left: 5px;
+    }
+  </style>
+</head>
+<body>
+    <h1 class="app-heading">YOUR NOTES HERE!</h1>
+
+    <div id="app">
+        <button class="add-note" type="button">+</button>
+      </div>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
