@@ -2,7 +2,6 @@ body {
   margin: 0;
   background: #009578;
 }
-
 #app {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
